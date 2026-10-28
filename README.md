@@ -137,27 +137,6 @@ Your application should open in your browser.
 
 ---
 
-## ☁️ Deployment
-
-MoodShift AI can be deployed using [Streamlit Community Cloud](https://share.streamlit.io/).
-
-### Deployment Steps
-
-1. Push your project code to GitHub.
-2. Open Streamlit Community Cloud.
-3. Sign in using your GitHub account.
-4. Create a new app.
-5. Select the `subhamsam007/MoodShift-AI` repository.
-6. Choose the correct branch and main Python file.
-7. Open **Advanced settings → Secrets**.
-8. Add your Groq API key:
-
-```toml
-GROQ_API_KEY = "your_actual_groq_api_key"
-```
-
-9. Click **Deploy**.
-10. Once deployment succeeds, copy your public application URL and replace the live demo placeholder at the top of this README.
 
 ---
 
